@@ -1,0 +1,101 @@
+<!Doctype HTML>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body{
+width:100%;
+background-color:darkorange;
+colour:white;
+
+}
+h1{
+text-shadow:4px 4px red;
+text-align:center;
+color:white;}
+ P{
+ text-align:center;
+color:white;}
+.table{
+
+  background-color: Orange;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  
+  }
+  .table:hover {
+  color:black;
+   cursor: pointer;
+  
+  }
+  th span{
+  color:black;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  }
+  th span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  color:blue;
+  font-size:20px;
+  transition: 0.5s;
+}
+th:hover span {
+  color:black;
+  background-color: white;
+}
+
+th:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+ 
+ 
+</style>
+</head>
+
+
+<body>
+
+<div class="container">
+  <h1>Artists</h1>
+  <p>Meet our talented artist and see their specialization u can also add them to your favourite list</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+	    <th></th>
+        <th>Name</th>
+        <th>Specilization</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+	    <td><img src = "F:\PRATIKSHA\VOTAR_CARD (2).jpg"></td>
+        <td>Pratiksha Jadeja
+		<p><a href = "file:///F:/programming/html/view_art_work.html ">View her art work</a></p></td>
+        <td>Landscape painting, Portraits, Rangoli</td>
+        <td><a href = "https://www.google.com/intl/en-GB/gmail/about/#">Jadejapratiksha08@gmail.com</a></td>
+      </tr>
+      <tr>
+	    <td><img src=" " alt = "zeenal's photo"></td>
+        <td>zeenal sureliya
+		<p><a href = " ">View her art work</a></p></td></td>
+        <td>Sketches, Glass Paintings, Portraits</td>
+        <td><a href = "https://www.google.com/intl/en-GB/gmail/about/#">mary@example.com</a></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
